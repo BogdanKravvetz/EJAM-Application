@@ -9,7 +9,7 @@ export class HeroesController {
 
     @Get()
     async findAll(): Promise<Hero[]> {
-        return this.heroesService.findAll();
+        return this.heroesService.findAll().sort((hero1, hero2) => hero2.humility - hero1.humility)
     }
 
     @Post()

@@ -9,3 +9,4 @@ I would colllaborate with a teammate by trying to work asynchronously, splitting
 - use a relational database instead of in-memory data
 - use React components instead of having everything in App.js
 - beautify the fronend
+- implement a search functionality to further sort heroes
